@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "rootDir": "src",
+        "baseUrl": "./",
+        "outDir": "dist",
+        "removeComments": true,
+        "paths": {
+            "@/*": ["src/*"]
+        },
+        "typeRoots": ["./src/@types"]
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"]
+}
